@@ -1,0 +1,26 @@
+file_name,utc_obs_date,instrument,Grating,slit,Exp_time,R,Observers,Reducer
+AT2024vjm_2024-09-15_00-40-56_ESO-NTT_EFOSC2-NTT_TNS.dat,2024-09-15T00:40:56.00,NTT/ EFOSC2,gr13,,2700,306,L. Asquini, "M. Landoni, C. Farias,S. Benetti"
+TOO_StellarMerger_SCI_SLIT_FLUX_IDP_UVB.ascii,2024-09-17T01:03:12.890,VLT/ X-Shooter,UVB,1.0,2850,10000,Nadia Blagorodnova,Maxime Wavasseur
+TOO_StellarMerger_SCI_SLIT_FLUX_IDP_VIS.ascii,2024-09-17T01:03:18.050,VLT/ X-Shooter,VIS,0.9,2880,10000,Nadia Blagorodnova,Maxime Wavasseur
+SN2024vjm_clipped_NIR_x-shooter_spectrum.txt,2024-09-17T01:03:21.1465,VLT/ X-Shooter,NIR,0.6,3000,10000,Nadia Blagorodnova,Maxime Wavasseur
+SN2024vjm_SALT/SN2024vjm_20240921_SALT.dat,2024-09-21T18:13:18.330,SALT/ RSS,PG0900,,1133.29 ,,Jha
+SN2024vjm_SALT/SN2024vjm_20240924_SALT.dat,2024-09-24T18:06:51.693,SALT/ RSS,PG0900,,1533.287,,Jha
+SN2024vjm_SALT/SN2024vjm_20241011_SALT.dat,2024-10-11T19:07:49.104,SALT/ RSS,PG0900,,1945.238,,Jha
+SN2024vjm_SALT/SN2024vjm_20241014_SALT.dat,2024-10-14T18:17:13.196,SALT/ RSS,PG0900,,2000.285,,Jha
+SN2024vjm_SALT/SN2024vjm_20241015_SALT.dat,2024-10-15T18:19:32.107,SALT/ RSS,PG0900,,2000.278,,Jha
+SN2024vjm_SALT/SN2024vjm_20241017_SALT.dat,2024-10-17T18:31:33.722,SALT/ RSS,PG0900,,2000.283,,Jha
+SN2024vjm_IMACS_20241105.txt,2024-11-06T00:27:45,Magellan/IMACS,f/2,,30,,Beletsky,Ping Chen
+epessto/SN2024vjm_2024-10-03_01-05-07.824_ESO-NTT_EFOSC2-NTT_ePESSTOp.asci,2024-10-03T01:05:07.00,NTT/ EFOSC2,Gr11,,2699,,"G. Dimitriadis, A. Milligan, M. Ghendrih","S. Gonzalez, J. Duarte, R. Santos"	
+epessto/SN2024vjm_2024-10-03_01-58-23.182_ESO-NTT_EFOSC2-NTT_ePESSTOp.asci,2024-10-03T01:58:23.00,NTT/ EFOSC2,Gr16,,2699,,"G. Dimitriadis, A. Milligan, M. Ghendrih","S. Gonzalez, J. Duarte, R. Santos"
+epessto/SN2024vjm_2024-10-14_01-27-22.355_ESO-NTT_EFOSC2-NTT_ePESSTOp.asci,2024-10-14T01:27:22.00,NTT/ EFOSC2,Gr11,,1799,,"T. Kravtsov, C. Humina","N. Pyykkinen, N. Koivisto, C. Vassallo"	
+epessto/SN2024vjm_2024-10-14_02-41-48.239_ESO-NTT_EFOSC2-NTT_ePESSTOp.asci,2024-10-14T02:41:48.00,NTT/ EFOSC2,Gr16,,2699,,"T. Kravtsov, C. Humina","N. Pyykkinen, N. Koivisto, C. Vassallo"
+epessto/SN2024vjm_2024-11-13_00-41-40.856_ESO-NTT_EFOSC2-NTT_ePESSTOp.asci,2024-11-13T00:41:40.00,NTT/ EFOSC2,Gr13,,2699,,"Yang Hu,Priscila J Pessi,Konstantinos Tsalapatas","Anjasha Gangopadhyay, Anamaria Gkini, Avinash Singh"
+epessto/SN2024vjm_2024-11-29_01-13-41.624_ESO-NTT_EFOSC2-NTT_ePESSTOp.asci,2024-11-29T01:13:41.00,NTT/ EFOSC2,Gr13,,1799,,"Claudia Gutiérrez, Alice Townsend","Amar Aryan, Aiswarya Sankar.K, Ting-Wan Chen, Hsiang-Yu Huang"
+SN2024vjm_MUSE_spectrum_2024-10-13.txt,2024-10-13T01:10:42.118,VLT/ MUSE,,,2827.88939984865,,Erez A. Zimmerman,Erez A. Zimmerman
+at2024vjm_20240915_redblu_105934.538.ascii.txt,2024-09-15T10:59:34.538,FTS/FLOYDS,red/blu,2.0 arcsec,3600.153,373.838327242332,supernova_exchange,Moira Andrews
+SN2024vjm_20241029_redblu_100931.254.ascii.txt,2024-10-29T10:09:31.254,FTS/FLOYDS,red/blu,2.0 arcsec,3000.179,434.2839201835529,supernova_exchange,Joseph Farah
+at2024vjm_20240920_redblu_094002.792.ascii.txt,2024-09-20T09:40:02.792,FTS/FLOYDS,red/blu,2.0 arcsec,3600.145,396.442579492773,supernova_exchange,Joseph Farah
+at2024vjm_20240921_redblu_121705.117.ascii.txt,2024-09-21T12:17:05.117,FTS/FLOYDS,red/blu,2.0 arcsec,3600.026,393.1959331036969,supernova_exchange,Joseph Farah
+SN2024vjm_20241102_redblu_105434.597.ascii.txt,2024-11-02T10:54:34.597,FTS/FLOYDS,red/blu,2.0 arcsec,3600.186,425.50087165386,supernova_exchange,Moira Andrews
+SN2024vjm_20240916_gemini.txt,2024-09-15T23:40:54.6500,Gemini-S/GMOS-S,B480,1.0 arcsec,300,1400,Karleyne Silva,"K. Maeda, H. Kuncarayakti"
+SN2024vjm_20240921_gemini.txt,2024-09-21T23:38:26.2,Gemini-S/GMOS-S,B480,1.0 arcsec,1200,1400,Murilo Marinello,"K. Maeda, H. Kuncarayakti"

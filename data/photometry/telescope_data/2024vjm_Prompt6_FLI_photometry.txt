@@ -1,0 +1,19 @@
+# SN 2024vjm photometry data
+# Telescope: Prompt6_FLI
+# Format: Date MJD Filter System Magnitude Error Flag Telescope
+# ============================================================
+Date MJD Filter System Magnitude Error Flag Telescope
+20240921 60574.20466 B vega 18.279 0.248 P Prompt6,FLI
+20240922 60575.05024 B vega 18.407 0.145 P Prompt6,FLI
+20240923 60576.10524 B vega 18.578 0.080 P Prompt6,FLI
+20240926 60579.13674 B vega 19.104 0.169 P Prompt6,FLI
+20240927 60580.08480 B vega 19.328 0.172 P Prompt6,FLI
+20240921 60574.20763 V vega 17.320 0.086 P Prompt6,FLI
+20240922 60575.05321 V vega 17.364 0.041 P Prompt6,FLI
+20240923 60576.09633 V vega 17.444 0.030 P Prompt6,FLI
+20240926 60579.12784 V vega 17.604 0.047 P Prompt6,FLI
+20240927 60580.07588 V vega 17.680 0.041 P Prompt6,FLI
+20240928 60581.05813 V vega 17.760 0.034 P Prompt6,FLI
+20240929 60582.09028 V vega 17.866 0.131 P Prompt6,FLI
+20241002 60585.21872 V vega 17.922 0.092 P Prompt6,FLI
+20241015 60598.04722 V vega 18.572 0.136 P Prompt6,FLI

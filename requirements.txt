@@ -1,0 +1,10 @@
+numpy>=2.0
+scipy
+astropy
+pandas
+matplotlib
+scikit-learn
+photutils
+extinction
+mpdaf
+SNeSCOPE @ git+https://github.com/idoirani/shock_cooling.git

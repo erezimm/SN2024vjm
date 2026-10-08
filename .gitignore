@@ -1,0 +1,6 @@
+outputs/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+data/external/*
+!data/external/README.md
