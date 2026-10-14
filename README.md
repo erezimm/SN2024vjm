@@ -21,7 +21,7 @@ outputs/     created on first run: figures, bolometric light curve, velocity tab
 | ⁵⁶Ni mass and γ-ray escape time from the radioactive tail | `scripts/ni56_tail_fit.py` |
 | γ-ray escape time from the Katz integral (t₀ = 83.15 +14.83/−15.47 d, 3σ lower limit) | `scripts/katz_integral_t0.py` |
 | Forced PSF photometry at the SN position in the *Euclid* VIS image; injection tests | `scripts/inject_and_measure.py` |
-| Check of the PSF photometry against the *Euclid* catalogue | `scripts/calibrate_zp_to_catalog.py` |
+| Check of the PSF photometry against the *Euclid* catalogue (point sources within 20″, mean offset 0.06 mag) | `scripts/verify_catalog_sources.py` |
 | MUSE Hα slice, SN spectrum extraction | `notebooks/MUSE_cube.ipynb` |
 | MUSE emission-line fluxes and O3N2 metallicity | `notebooks/MUSE_emission_lines_metallicity.ipynb` |
 | NIR Co II P Cygni joint fits (velocities in Fig. 3b) | `notebooks/NIR_spectra_CoII_fits.ipynb` |
@@ -81,5 +81,5 @@ The SN 2024vjm photometry and spectra are also available on WISeREP (https://www
 | BPASS v2.2.1 detailed stellar models (z = 0.014) | https://bpass.auckland.ac.nz | extract so that `bpass/bpass-v2.2-newmodels/NEWBINMODS/…` exists |
 | *JWST* NIRSpec spectrum (reduced version already in `data/spectra/`) | https://doi.org/10.17909/m3aj-1c81 | — |
 
-`fig1_euclid_image.py` writes the column-selected *Euclid* catalogue to `outputs/euclid_vis.csv` on its first run; `calibrate_zp_to_catalog.py` reads it from there.
+`fig1_euclid_image.py` writes the column-selected *Euclid* catalogue to `outputs/euclid_vis.csv` on its first run; `verify_catalog_sources.py` reads it from there.
 `notebooks/MUSE_emission_lines_metallicity.ipynb` also needs the `eml_tools` module (Balmer decrement and extinction helpers) on the `PYTHONPATH`.
