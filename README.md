@@ -22,6 +22,7 @@ outputs/     created on first run: figures, bolometric light curve, velocity tab
 | γ-ray escape time from the Katz integral (t₀ = 83.15 +14.83/−15.47 d, 3σ lower limit) | `scripts/katz_integral_t0.py` |
 | Forced PSF photometry at the SN position in the *Euclid* VIS image; injection tests | `scripts/inject_and_measure.py` |
 | Check of the PSF photometry against the *Euclid* catalogue (point sources within 20″, mean offset 0.06 mag) | `scripts/verify_catalog_sources.py` |
+| Precision astrometry of the BlackGEM images: SN position and astrometric scatter (original analysis code, MATLAB) | `scripts/astrometry_analyze.m` |
 | MUSE Hα slice, SN spectrum extraction | `notebooks/MUSE_cube.ipynb` |
 | MUSE emission-line fluxes and O3N2 metallicity | `notebooks/MUSE_emission_lines_metallicity.ipynb` |
 | NIR Co II P Cygni joint fits (velocities in Fig. 3b) | `notebooks/NIR_spectra_CoII_fits.ipynb` |
@@ -42,6 +43,7 @@ outputs/     created on first run: figures, bolometric light curve, velocity tab
 
 ## Requirements
 Python 3 with `numpy`, `scipy`, `astropy`, `pandas`, `matplotlib`, `scikit-learn`, `photutils`, `extinction` and `mpdaf` (MUSE only).
+`scripts/astrometry_analyze.m` is the original astrometry code. It runs in MATLAB with [AstroPack](https://github.com/EranOfek/AstroPack) (MAATv2), from the folder containing the BlackGEM images (`BG*.fits`).
 The light-curve library also imports `SNeSCOPE.PhotoUtils` for filter zero points; install it from GitHub with `pip install git+https://github.com/idoirani/shock_cooling.git`. NumPy ≥ 2.0 is needed (`numpy.trapezoid`). Everything can be installed with `pip install -r requirements.txt`.
 
 ## Data
